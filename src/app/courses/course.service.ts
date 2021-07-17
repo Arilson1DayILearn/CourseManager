@@ -34,7 +34,19 @@ var COURSES: Course[] = [
         rating: 3.4,
         releaseDate: 'December, 4 , 2019',
         description: "Curso de um framework baseado em javaScript."
+    },
+    {
+        id: 3,
+        name: 'Vue',
+        imageUrl: '/assets/images/vue.png',
+        price: 99.99,
+        code: 'LKL-8596',
+        duration: 40,
+        rating: 3.9,
+        releaseDate: 'December, 6 , 2019',
+        description: "Curso de outro framework baseado em javaScript."
     }
+
 ];
 
 

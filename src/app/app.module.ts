@@ -5,13 +5,15 @@ import { CourseListComponent } from './courses/course-list.component';
 import { AppComponent } from './app.component';
 import { StarComponent } from './star/star.component';
 import { ReplacePipe } from './pipe/replace.pipe';
+import { NavBarComponent } from './nav-bar/nar-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseListComponent,
     StarComponent,
-    ReplacePipe
+    ReplacePipe,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
