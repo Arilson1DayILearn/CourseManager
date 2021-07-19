@@ -25,6 +25,17 @@ var COURSES: Course[] = [
         description: "Curso de um framework baseado em HTML."
     },
     {
+        id: 5,
+        name: 'Thymeleaf',
+        imageUrl: '/assets/images/thymeleaf.png',
+        price: 41.99,
+        code: 'LKS-8794',
+        duration: 30,
+        rating: 2.2,
+        releaseDate: 'November, 14 , 2021',
+        description: "Curso baseado em HTML."
+    },
+    {
         id: 2,
         name: 'React',
         imageUrl: '/assets/images/react.png',
@@ -34,6 +45,17 @@ var COURSES: Course[] = [
         rating: 3.4,
         releaseDate: 'December, 4 , 2019',
         description: "Curso de um framework baseado em javaScript."
+    },        
+    {
+        id: 4,
+        name: 'JSF',
+        imageUrl: '/assets/images/jsf.png',
+        price: 45.99,
+        code: 'LKS-8594',
+        duration: 37,
+        rating: 3.8,
+        releaseDate: 'November, 6 , 2019',
+        description: "Curso de JSF."
     },
     {
         id: 3,
@@ -45,7 +67,10 @@ var COURSES: Course[] = [
         rating: 3.9,
         releaseDate: 'December, 6 , 2019',
         description: "Curso de outro framework baseado em javaScript."
-    }
+    },
+    
+
+
 
 ];
 
